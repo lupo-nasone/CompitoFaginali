@@ -10,10 +10,6 @@ public class Macchina extends Thread{
     private Semaforo sem;
     private Box box;
     
-
-    
-
-
     
 
     /**
