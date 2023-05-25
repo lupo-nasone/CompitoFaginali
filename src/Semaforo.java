@@ -19,12 +19,13 @@ public class Semaforo {
             catch(Exception e){
                 System.out.println("errore in semaforo");
             }
+            stato--;
         }
     }
 
 
     public synchronized void V(){
-        stato = 1;
+        stato ++;
         notify();
     }
 }
